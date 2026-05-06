@@ -36,3 +36,4 @@ Follow these steps to deploy the security shield in your local environment:
 5.  *🧪 Test the Shield:*
     Try visiting your-site.com/index.php?test=<script>alert(1)</script> to see the WAF in action!
 
+[https://waf.wuaze.com/index.php](https://waf.wuaze.com/index.php)
