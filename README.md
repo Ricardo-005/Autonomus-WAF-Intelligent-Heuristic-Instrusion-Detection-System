@@ -5,6 +5,8 @@
 ![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
 ![License](https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge)
 
+Try it here ➡️ [https://waf.wuaze.com/index.php](https://waf.wuaze.com/index.php)
+
 This project is a custom-built Web Application Firewall (WAF) and Intrusion Detection System (IDS) developed in PHP. It is designed to intercept and analyze incoming HTTP traffic to mitigate common web vulnerabilities before they reach the application logic.
 Unlike traditional signature-based firewalls, this system implements a Heuristic Scoring Engine that evaluates the risk level of each request based on character density, anomaly patterns, and known attack signatures (SQLi, XSS, and Path Traversal).
 
@@ -35,5 +37,3 @@ Follow these steps to deploy the security shield in your local environment:
     
 5.  *🧪 Test the Shield:*
     Try visiting your-site.com/index.php?test=<script>alert(1)</script> to see the WAF in action!
-
-Try it here: [https://waf.wuaze.com/index.php](https://waf.wuaze.com/index.php)
